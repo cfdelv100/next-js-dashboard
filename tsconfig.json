@@ -30,5 +30,9 @@
     "app/lib/placeholder-data.js",
     "scripts/seed.js"
   ],
+  "baseUrl": "",
+  "paths": {
+    "@/app/*":  ["app/*"]
+  },
   "exclude": ["node_modules"]
 }
